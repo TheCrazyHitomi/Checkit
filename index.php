@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="/assets/css/override-bootstrap.css">
 </head>
 <body>
@@ -31,7 +32,8 @@
       </div>
     </header>
 </div>
-    <div class="container col-xxl-8 px-4 py-5">
+
+  <div class="container col-xxl-8 px-4 py-5">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
       <div class="col-10 col-sm-8 col-lg-6">
         <img src="/assets/images/logo-checkit.png" class="d-block mx-lg-auto img-fluid" alt="Checkit logo" width="500" height="500" loading="lazy">
@@ -48,17 +50,42 @@
     </div>
   </div>
 
-<div class="row text-center">
+<div class="container col-xxl-8 px-4 py-5">  
+  <div class="row text-center">
     <h2>Découvrez les fonctionnalités principales :</h2>
-    <div class="col-md-4 my-2">
-    <div class="card w-100">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div class="col-md-4 my-2">
+        <div class="card w-100">
+          <div class="card-header">
+            <i class="bi bi-card-checklist"></i>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Créer un nombre illimité de listes</h3>
+            <a href="#" class="btn btn-primary">S'inscrire</a>
+          </div>
         </div>
-    </div>
+      </div>
+      <div class="col-md-4 my-2">
+        <div class="card w-100">
+          <div class="card-header">
+            <i class="bi bi-tags-fill"></i>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Classer les listes par catégories</h3>
+            <a href="#" class="btn btn-primary">S'inscrire</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 my-2">
+        <div class="card w-100">
+          <div class="card-header">
+            <i class="bi bi-search"></i>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Retrouver facilement vos listes</h3>
+            <a href="#" class="btn btn-primary">S'inscrire</a>
+          </div>
+        </div>
+      </div>
     </div>
 </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
