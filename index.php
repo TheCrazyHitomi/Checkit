@@ -43,8 +43,7 @@
         
         <p class="lead">Bienvenue sur CheckIt, votre nouvelle plateforme de création de listes de tâches en ligne. Avec CheckIt, vous pouvez facilement créer des listes de choses à faire pour tous les aspects de votre vie. Que vous planifiez votre prochain voyage, que vous organisiez votre travail ou que vous fassiez des courses, CheckIt vous aide à rester organisé et à suivre vos tâches en toute simplicité.</p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">S'inscrire</button>
         </div>
       </div>
     </div>
