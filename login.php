@@ -7,8 +7,8 @@
   require_once __DIR__. "/lib/pdo.php";
   require_once __DIR__. "/lib/user.php";
 
-  //echo password_hash("Prout", PASSWORD_DEFAULT); (transformation du mot de passe en hash)
-  
+  //(transformation du mot de passe en hash)
+    //echo password_hash("Miam", PASSWORD_DEFAULT); 
   
   $errors = [];
 
@@ -17,12 +17,15 @@
 
     if($user) {
       // on va le connecter => session
-      var_dump($user['email']);
+      $_SESSION['user'] = $user;
+      header('location: index.php');
     } else { 
       // afficher une erreur
       $errors[] = "email ou mot de passe incorrect";
     }
+    
   }
+
 ?>
 
 <div class="container col-xxl-8 px-4 py-5">
